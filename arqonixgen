@@ -28,12 +28,12 @@ export default function ArqonixgenWebsite() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-6xl font-semibold leading-tight max-w-5xl"
           >
-            Verification Engineering
+            ASIC Engineering
             <br />
             <span className="text-neutral-400">for Next-Generation Silicon</span>
           </motion.h2>
           <p className="mt-8 max-w-3xl text-neutral-400 text-lg">
-            Arqonixgen Semiconductor Pvt Ltd delivers advanced ASIC and SoC verification services
+            Arqonixgen Semiconductor Pvt Ltd delivers advanced ASIC and SoC services
             for complex, high-performance semiconductor designs.
           </p>
           <div className="mt-10 flex gap-4">
@@ -49,8 +49,7 @@ export default function ArqonixgenWebsite() {
           <h3 className="text-3xl font-semibold">About Arqonixgen</h3>
           <p className="text-neutral-400 leading-relaxed text-lg">
             Arqonixgen Semiconductor Pvt Ltd is a focused semiconductor engineering services company
-            specializing in functional verification, protocol compliance, and verification
-            sign-off for ASIC and SoC programs. We partner closely with customer engineering teams
+            specializing in functional chips sign-off for ASIC and SoC programs. We partner closely with customer engineering teams
             to accelerate development cycles while maintaining the highest quality standards.
           </p>
         </div>
@@ -61,8 +60,10 @@ export default function ArqonixgenWebsite() {
         <div className="max-w-7xl mx-auto px-6 py-24">
           <h3 className="text-3xl font-semibold mb-14">Services</h3>
           <div className="grid md:grid-cols-3 gap-10">
-            <Service title="ASIC / SoC Verification" desc="End-to-end verification from test planning through coverage closure and sign-off." />
-            <Service title="Protocol Verification" desc="Deep expertise in PCIe, CXL.io, CXL.mem, DDR, AXI, and high-speed interconnects." />
+            <Service title="ASIC / SoC Design,verification,DFT,Analog mixed signals" desc="We specialize in hardware services to create cutting-edge technology products. Our semiconductor services include
+
+." />
+            <Service title="Protocol Design/Verification" desc="Deep expertise in PCIe, CXL.io, CXL.mem, DDR, AXI, and high-speed interconnects." />
             <Service title="Verification Methodology" desc="UVM, assertion-based verification, coverage-driven flows, and power-aware verification." />
           </div>
         </div>
